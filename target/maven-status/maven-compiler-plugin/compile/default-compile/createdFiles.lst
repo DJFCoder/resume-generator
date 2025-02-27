@@ -1,0 +1,9 @@
+com\devjf\curriculum\generator\model\Education.class
+com\devjf\curriculum\generator\model\Resume.class
+com\devjf\curriculum\generator\model\Project.class
+com\devjf\curriculum\generator\model\Experience.class
+com\devjf\curriculum\generator\service\ResumeBuilder.class
+com\devjf\curriculum\generator\service\ResumeLanguage.class
+com\devjf\curriculum\generator\service\DocxGenerator.class
+com\devjf\curriculum\generator\CurriculumGenerator.class
+com\devjf\curriculum\generator\model\Language.class
