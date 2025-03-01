@@ -54,3 +54,63 @@ mvn clean package
 - Features complete resume generation with all sections
 - Bilingual support (English/Portuguese)
 Download the latest release from the [releases page](https://github.com/DJFCoder/resume-generator/releases/tag/published).
+
+---
+
+# Gerador de Currículos
+
+Uma ferramenta simples de linha de comando que gera currículos profissionais no formato DOCX, especialmente projetada para desenvolvedores.
+
+## Visão Geral
+
+O Resume Generator é um aplicativo Java que auxilia desenvolvedores a criar currículos bem estruturados inserindo suas informações por meio de uma interface interativa no console. O currículo gerado é salvo como um arquivo DOCX com formatação consistente.
+
+## Funcionalidades
+
+- Entrada de dados interativa via console  
+- Suporte bilíngue (Inglês/Português) para os títulos das seções  
+- Geração de arquivos DOCX com formatação profissional  
+- Seções incluídas:  
+  - Informações Pessoais  
+  - Resumo Profissional  
+  - Habilidades Técnicas  
+  - Experiência Profissional  
+  - Formação Acadêmica  
+  - Projetos  
+  - Certificações  
+  - Idiomas  
+
+## Detalhes Técnicos
+
+- Desenvolvido em Java 17  
+- Utiliza Apache POI para geração de arquivos DOCX  
+- Lombok para reduzir código boilerplate  
+- Maven para gerenciamento do projeto  
+
+## Requisitos
+
+- Java 17 ou superior  
+- Sistema operacional Windows  
+- Maven (para compilação a partir do código-fonte)  
+
+## Uso
+
+1. Baixe o arquivo executável  
+2. Execute o aplicativo  
+3. Siga as instruções interativas para inserir suas informações  
+4. O currículo gerado será salvo como um arquivo DOCX no local especificado  
+
+## Compilação a partir do Código-Fonte
+
+```bash
+mvn clean package
+```
+
+## Versões
+### Versão 1.0
+- Lançamento inicial  
+- Disponível como executável (.exe) para Windows  
+- Geração completa de currículos com todas as seções  
+- Suporte bilíngue (Inglês/Português)  
+
+Baixe a versão mais recente na [página de releases](https://github.com/DJFCoder/resume-generator/releases/tag/published).
